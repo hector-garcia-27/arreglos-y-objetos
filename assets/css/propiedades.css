@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon{
+    width: 25px;
+}
+
+#propiedades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alq>.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    padding: 10px;
+    margin: 15px;
+}
+
+.alq>.card>.arriba>img{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.alq>.card>.abajo>.siPets{
+    display: flex;
+    padding: 10px;
+}
+
+.alq>.card>.abajo>.noPets{
+    display: flex;
+    padding: 10px;
+}
+
+.alq>.card>.abajo>.noFumar{
+    display: flex;
+    padding: 10px;
+}
+
+.alq>.card>.abajo>.siFumar{
+    display: flex;
+    padding: 10px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+}
+
+.location>.texto{
+    display: flex;
+    align-items: center;
+}
+
+.capacidad{
+    display: flex;
+    align-items: center;
+}
+
+.capacidad>.habitacion{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    border-right: solid 1px black;
+}
+
+.capacidad>.baños{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
